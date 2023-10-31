@@ -1,0 +1,87 @@
+
+
+form {
+    margin: 10px 1rem;
+    display: flex;
+}
+
+input {
+    line-height: 25px;
+    width: 50%;
+}
+
+form i {
+  position: absolute;
+  font-size: 28px;
+	margin-left: 50%;
+	color: #7875B5;
+}
+
+button {
+    width: 40px;
+    height: 32px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    transition-duration: 0.4s;
+}
+
+.blog-grid {
+    margin: 0 1rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+    grid-gap: 1rem;
+  }
+  
+  .blog-item {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+    border: 1px solid #000;
+    word-wrap: break-word;
+  }
+  
+  .blog-item-img {
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+    background-color: #aaa;   
+  }
+
+  .blog-item-img img{
+    width: 280px;
+    height: 300px;
+    object-fit: cover; 
+  }
+  
+  .blog-item-title {
+    padding: 0px 1rem;
+    text-align: justify;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .blog-item-time {
+    padding: 0.6rem 1rem;
+    text-align: justify;
+    color: #333;
+    font-size: 1rem;
+  }
+
+  .blog-item-body {
+    padding: 0px 1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    color: #333;
+    font-size: 1.1rem;
+  }
